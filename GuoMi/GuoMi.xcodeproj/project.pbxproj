@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45EBB7281F1E8C21C6340B3C /* libPods-GuoMi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0FF6ED7886C91D1F84CC9C /* libPods-GuoMi.a */; };
+		FD4FC27F27BBB646001278C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC27E27BBB646001278C7 /* AppDelegate.m */; };
+		FD4FC28227BBB646001278C7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC28127BBB646001278C7 /* SceneDelegate.m */; };
+		FD4FC28527BBB646001278C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC28427BBB646001278C7 /* ViewController.m */; };
+		FD4FC28827BBB646001278C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC28627BBB646001278C7 /* Main.storyboard */; };
+		FD4FC28A27BBB647001278C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC28927BBB647001278C7 /* Assets.xcassets */; };
+		FD4FC28D27BBB647001278C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC28B27BBB647001278C7 /* LaunchScreen.storyboard */; };
+		FD4FC29027BBB647001278C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC28F27BBB647001278C7 /* main.m */; };
+		FD4FC29A27BBB647001278C7 /* GuoMiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC29927BBB647001278C7 /* GuoMiTests.m */; };
+		FD4FC2A427BBB647001278C7 /* GuoMiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC2A327BBB647001278C7 /* GuoMiUITests.m */; };
+		FD4FC2A627BBB647001278C7 /* GuoMiUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC2A527BBB647001278C7 /* GuoMiUITestsLaunchTests.m */; };
+		FD4FC2C827BBB6F1001278C7 /* GMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC2B327BBB6F1001278C7 /* GMUtils.m */; };
+		FD4FC2C927BBB6F1001278C7 /* GMSm3Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC2BF27BBB6F1001278C7 /* GMSm3Utils.m */; };
+		FD4FC2CA27BBB6F1001278C7 /* GMSm2Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC2C127BBB6F1001278C7 /* GMSm2Utils.m */; };
+		FD4FC2CB27BBB6F1001278C7 /* GMSm2Bio.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC2C327BBB6F1001278C7 /* GMSm2Bio.m */; };
+		FD4FC2CC27BBB6F1001278C7 /* GMSm4Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4FC2C727BBB6F1001278C7 /* GMSm4Utils.m */; };
+		FD4FC37227BCD40B001278C7 /* sm2pri-4.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC33B27BCD40B001278C7 /* sm2pri-4.pem */; };
+		FD4FC37327BCD40B001278C7 /* sm2pri-5.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC33C27BCD40B001278C7 /* sm2pri-5.pem */; };
+		FD4FC37427BCD40B001278C7 /* sm2pri-7.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC33D27BCD40B001278C7 /* sm2pri-7.pem */; };
+		FD4FC37527BCD40B001278C7 /* sm2pri-6.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC33E27BCD40B001278C7 /* sm2pri-6.pem */; };
+		FD4FC37627BCD40B001278C7 /* sm2pri-2.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC33F27BCD40B001278C7 /* sm2pri-2.pem */; };
+		FD4FC37727BCD40B001278C7 /* sm2pri-3.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34027BCD40B001278C7 /* sm2pri-3.pem */; };
+		FD4FC37827BCD40B001278C7 /* sm2pri-1.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34127BCD40B001278C7 /* sm2pri-1.pem */; };
+		FD4FC37927BCD40B001278C7 /* sm2pri-10.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34227BCD40B001278C7 /* sm2pri-10.pem */; };
+		FD4FC37A27BCD40B001278C7 /* sm2pri-8.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34327BCD40B001278C7 /* sm2pri-8.pem */; };
+		FD4FC37B27BCD40B001278C7 /* sm2pri-9.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34427BCD40B001278C7 /* sm2pri-9.pem */; };
+		FD4FC37C27BCD40B001278C7 /* sm2pri-1.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34627BCD40B001278C7 /* sm2pri-1.der */; };
+		FD4FC37D27BCD40B001278C7 /* sm2pri-3.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34727BCD40B001278C7 /* sm2pri-3.der */; };
+		FD4FC37E27BCD40B001278C7 /* sm2pri-2.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34827BCD40B001278C7 /* sm2pri-2.der */; };
+		FD4FC37F27BCD40B001278C7 /* sm2pri-6.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34927BCD40B001278C7 /* sm2pri-6.der */; };
+		FD4FC38027BCD40B001278C7 /* sm2pri-7.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34A27BCD40B001278C7 /* sm2pri-7.der */; };
+		FD4FC38127BCD40B001278C7 /* sm2pri-5.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34B27BCD40B001278C7 /* sm2pri-5.der */; };
+		FD4FC38227BCD40B001278C7 /* sm2pri-4.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34C27BCD40B001278C7 /* sm2pri-4.der */; };
+		FD4FC38327BCD40B001278C7 /* sm2pri-9.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34D27BCD40B001278C7 /* sm2pri-9.der */; };
+		FD4FC38427BCD40B001278C7 /* sm2pri-8.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34E27BCD40B001278C7 /* sm2pri-8.der */; };
+		FD4FC38527BCD40B001278C7 /* sm2pri-10.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC34F27BCD40B001278C7 /* sm2pri-10.der */; };
+		FD4FC38627BCD40B001278C7 /* sm2pri8-9.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35127BCD40B001278C7 /* sm2pri8-9.pem */; };
+		FD4FC38727BCD40B001278C7 /* sm2pri8-8.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35227BCD40B001278C7 /* sm2pri8-8.pem */; };
+		FD4FC38827BCD40B001278C7 /* sm2pri8-10.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35327BCD40B001278C7 /* sm2pri8-10.pem */; };
+		FD4FC38927BCD40B001278C7 /* sm2pri8-3.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35427BCD40B001278C7 /* sm2pri8-3.pem */; };
+		FD4FC38A27BCD40B001278C7 /* sm2pri8-2.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35527BCD40B001278C7 /* sm2pri8-2.pem */; };
+		FD4FC38B27BCD40B001278C7 /* sm2pri8-1.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35627BCD40B001278C7 /* sm2pri8-1.pem */; };
+		FD4FC38C27BCD40B001278C7 /* sm2pri8-5.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35727BCD40B001278C7 /* sm2pri8-5.pem */; };
+		FD4FC38D27BCD40B001278C7 /* sm2pri8-4.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35827BCD40B001278C7 /* sm2pri8-4.pem */; };
+		FD4FC38E27BCD40B001278C7 /* sm2pri8-6.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35927BCD40B001278C7 /* sm2pri8-6.pem */; };
+		FD4FC38F27BCD40B001278C7 /* sm2pri8-7.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35A27BCD40B001278C7 /* sm2pri8-7.pem */; };
+		FD4FC39027BCD40B001278C7 /* sm2pub-1.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35C27BCD40B001278C7 /* sm2pub-1.der */; };
+		FD4FC39127BCD40B001278C7 /* sm2pub-2.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35D27BCD40B001278C7 /* sm2pub-2.der */; };
+		FD4FC39227BCD40B001278C7 /* sm2pub-3.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35E27BCD40B001278C7 /* sm2pub-3.der */; };
+		FD4FC39327BCD40B001278C7 /* sm2pub-7.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC35F27BCD40B001278C7 /* sm2pub-7.der */; };
+		FD4FC39427BCD40B001278C7 /* sm2pub-6.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36027BCD40B001278C7 /* sm2pub-6.der */; };
+		FD4FC39527BCD40B001278C7 /* sm2pub-4.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36127BCD40B001278C7 /* sm2pub-4.der */; };
+		FD4FC39627BCD40B001278C7 /* sm2pub-5.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36227BCD40B001278C7 /* sm2pub-5.der */; };
+		FD4FC39727BCD40B001278C7 /* sm2pub-8.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36327BCD40B001278C7 /* sm2pub-8.der */; };
+		FD4FC39827BCD40B001278C7 /* sm2pub-9.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36427BCD40B001278C7 /* sm2pub-9.der */; };
+		FD4FC39927BCD40B001278C7 /* sm2pub-10.der in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36527BCD40B001278C7 /* sm2pub-10.der */; };
+		FD4FC39A27BCD40B001278C7 /* sm2pub-5.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36727BCD40B001278C7 /* sm2pub-5.pem */; };
+		FD4FC39B27BCD40B001278C7 /* sm2pub-4.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36827BCD40B001278C7 /* sm2pub-4.pem */; };
+		FD4FC39C27BCD40B001278C7 /* sm2pub-6.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36927BCD40B001278C7 /* sm2pub-6.pem */; };
+		FD4FC39D27BCD40B001278C7 /* sm2pub-7.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36A27BCD40B001278C7 /* sm2pub-7.pem */; };
+		FD4FC39E27BCD40B001278C7 /* sm2pub-3.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36B27BCD40B001278C7 /* sm2pub-3.pem */; };
+		FD4FC39F27BCD40B001278C7 /* sm2pub-2.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36C27BCD40B001278C7 /* sm2pub-2.pem */; };
+		FD4FC3A027BCD40B001278C7 /* sm2pub-1.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36D27BCD40B001278C7 /* sm2pub-1.pem */; };
+		FD4FC3A127BCD40B001278C7 /* sm2pub-10.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36E27BCD40B001278C7 /* sm2pub-10.pem */; };
+		FD4FC3A227BCD40B001278C7 /* sm2pub-9.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC36F27BCD40B001278C7 /* sm2pub-9.pem */; };
+		FD4FC3A327BCD40B001278C7 /* sm2pub-8.pem in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC37027BCD40B001278C7 /* sm2pub-8.pem */; };
+		FD4FC3A427BCD40B001278C7 /* sm4TestFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD4FC37127BCD40B001278C7 /* sm4TestFile.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD4FC29627BBB647001278C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD4FC27227BBB646001278C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4FC27927BBB646001278C7;
+			remoteInfo = GuoMi;
+		};
+		FD4FC2A027BBB647001278C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD4FC27227BBB646001278C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD4FC27927BBB646001278C7;
+			remoteInfo = GuoMi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80260F32BD44167730661520 /* Pods-GuoMi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuoMi.release.xcconfig"; path = "Target Support Files/Pods-GuoMi/Pods-GuoMi.release.xcconfig"; sourceTree = "<group>"; };
+		8F0FF6ED7886C91D1F84CC9C /* libPods-GuoMi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuoMi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAB5015C8455EF6F7DCF61D /* Pods-GuoMi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuoMi.debug.xcconfig"; path = "Target Support Files/Pods-GuoMi/Pods-GuoMi.debug.xcconfig"; sourceTree = "<group>"; };
+		FD4FC27A27BBB646001278C7 /* GuoMi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuoMi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4FC27D27BBB646001278C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD4FC27E27BBB646001278C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD4FC28027BBB646001278C7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FD4FC28127BBB646001278C7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FD4FC28327BBB646001278C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD4FC28427BBB646001278C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD4FC28727BBB646001278C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD4FC28927BBB647001278C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD4FC28C27BBB647001278C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD4FC28E27BBB647001278C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4FC28F27BBB647001278C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD4FC29527BBB647001278C7 /* GuoMiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuoMiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4FC29927BBB647001278C7 /* GuoMiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuoMiTests.m; sourceTree = "<group>"; };
+		FD4FC29F27BBB647001278C7 /* GuoMiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuoMiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD4FC2A327BBB647001278C7 /* GuoMiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuoMiUITests.m; sourceTree = "<group>"; };
+		FD4FC2A527BBB647001278C7 /* GuoMiUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuoMiUITestsLaunchTests.m; sourceTree = "<group>"; };
+		FD4FC2B327BBB6F1001278C7 /* GMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUtils.m; sourceTree = "<group>"; };
+		FD4FC2B427BBB6F1001278C7 /* GMSm2Bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm2Bio.h; sourceTree = "<group>"; };
+		FD4FC2BE27BBB6F1001278C7 /* GMSm2Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm2Utils.h; sourceTree = "<group>"; };
+		FD4FC2BF27BBB6F1001278C7 /* GMSm3Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm3Utils.m; sourceTree = "<group>"; };
+		FD4FC2C027BBB6F1001278C7 /* GMSm4Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm4Utils.h; sourceTree = "<group>"; };
+		FD4FC2C127BBB6F1001278C7 /* GMSm2Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm2Utils.m; sourceTree = "<group>"; };
+		FD4FC2C227BBB6F1001278C7 /* GMSm3Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm3Utils.h; sourceTree = "<group>"; };
+		FD4FC2C327BBB6F1001278C7 /* GMSm2Bio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm2Bio.m; sourceTree = "<group>"; };
+		FD4FC2C427BBB6F1001278C7 /* GMObjCDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMObjCDef.h; sourceTree = "<group>"; };
+		FD4FC2C527BBB6F1001278C7 /* GMObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMObjC.h; sourceTree = "<group>"; };
+		FD4FC2C627BBB6F1001278C7 /* GMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUtils.h; sourceTree = "<group>"; };
+		FD4FC2C727BBB6F1001278C7 /* GMSm4Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm4Utils.m; sourceTree = "<group>"; };
+		FD4FC33B27BCD40B001278C7 /* sm2pri-4.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-4.pem"; sourceTree = "<group>"; };
+		FD4FC33C27BCD40B001278C7 /* sm2pri-5.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-5.pem"; sourceTree = "<group>"; };
+		FD4FC33D27BCD40B001278C7 /* sm2pri-7.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-7.pem"; sourceTree = "<group>"; };
+		FD4FC33E27BCD40B001278C7 /* sm2pri-6.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-6.pem"; sourceTree = "<group>"; };
+		FD4FC33F27BCD40B001278C7 /* sm2pri-2.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-2.pem"; sourceTree = "<group>"; };
+		FD4FC34027BCD40B001278C7 /* sm2pri-3.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-3.pem"; sourceTree = "<group>"; };
+		FD4FC34127BCD40B001278C7 /* sm2pri-1.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-1.pem"; sourceTree = "<group>"; };
+		FD4FC34227BCD40B001278C7 /* sm2pri-10.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-10.pem"; sourceTree = "<group>"; };
+		FD4FC34327BCD40B001278C7 /* sm2pri-8.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-8.pem"; sourceTree = "<group>"; };
+		FD4FC34427BCD40B001278C7 /* sm2pri-9.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri-9.pem"; sourceTree = "<group>"; };
+		FD4FC34627BCD40B001278C7 /* sm2pri-1.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pri-1.der"; sourceTree = "<group>"; };
+		FD4FC34727BCD40B001278C7 /* sm2pri-3.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pri-3.der"; sourceTree = "<group>"; };
+		FD4FC34827BCD40B001278C7 /* sm2pri-2.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pri-2.der"; sourceTree = "<group>"; };
+		FD4FC34927BCD40B001278C7 /* sm2pri-6.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pri-6.der"; sourceTree = "<group>"; };
+		FD4FC34A27BCD40B001278C7 /* sm2pri-7.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pri-7.der"; sourceTree = "<group>"; };
+		FD4FC34B27BCD40B001278C7 /* sm2pri-5.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pri-5.der"; sourceTree = "<group>"; };
+		FD4FC34C27BCD40B001278C7 /* sm2pri-4.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pri-4.der"; sourceTree = "<group>"; };
+		FD4FC34D27BCD40B001278C7 /* sm2pri-9.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pri-9.der"; sourceTree = "<group>"; };
+		FD4FC34E27BCD40B001278C7 /* sm2pri-8.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pri-8.der"; sourceTree = "<group>"; };
+		FD4FC34F27BCD40B001278C7 /* sm2pri-10.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pri-10.der"; sourceTree = "<group>"; };
+		FD4FC35127BCD40B001278C7 /* sm2pri8-9.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri8-9.pem"; sourceTree = "<group>"; };
+		FD4FC35227BCD40B001278C7 /* sm2pri8-8.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri8-8.pem"; sourceTree = "<group>"; };
+		FD4FC35327BCD40B001278C7 /* sm2pri8-10.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri8-10.pem"; sourceTree = "<group>"; };
+		FD4FC35427BCD40B001278C7 /* sm2pri8-3.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri8-3.pem"; sourceTree = "<group>"; };
+		FD4FC35527BCD40B001278C7 /* sm2pri8-2.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri8-2.pem"; sourceTree = "<group>"; };
+		FD4FC35627BCD40B001278C7 /* sm2pri8-1.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri8-1.pem"; sourceTree = "<group>"; };
+		FD4FC35727BCD40B001278C7 /* sm2pri8-5.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri8-5.pem"; sourceTree = "<group>"; };
+		FD4FC35827BCD40B001278C7 /* sm2pri8-4.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri8-4.pem"; sourceTree = "<group>"; };
+		FD4FC35927BCD40B001278C7 /* sm2pri8-6.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri8-6.pem"; sourceTree = "<group>"; };
+		FD4FC35A27BCD40B001278C7 /* sm2pri8-7.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pri8-7.pem"; sourceTree = "<group>"; };
+		FD4FC35C27BCD40B001278C7 /* sm2pub-1.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pub-1.der"; sourceTree = "<group>"; };
+		FD4FC35D27BCD40B001278C7 /* sm2pub-2.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pub-2.der"; sourceTree = "<group>"; };
+		FD4FC35E27BCD40B001278C7 /* sm2pub-3.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pub-3.der"; sourceTree = "<group>"; };
+		FD4FC35F27BCD40B001278C7 /* sm2pub-7.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pub-7.der"; sourceTree = "<group>"; };
+		FD4FC36027BCD40B001278C7 /* sm2pub-6.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pub-6.der"; sourceTree = "<group>"; };
+		FD4FC36127BCD40B001278C7 /* sm2pub-4.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pub-4.der"; sourceTree = "<group>"; };
+		FD4FC36227BCD40B001278C7 /* sm2pub-5.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pub-5.der"; sourceTree = "<group>"; };
+		FD4FC36327BCD40B001278C7 /* sm2pub-8.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pub-8.der"; sourceTree = "<group>"; };
+		FD4FC36427BCD40B001278C7 /* sm2pub-9.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pub-9.der"; sourceTree = "<group>"; };
+		FD4FC36527BCD40B001278C7 /* sm2pub-10.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sm2pub-10.der"; sourceTree = "<group>"; };
+		FD4FC36727BCD40B001278C7 /* sm2pub-5.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pub-5.pem"; sourceTree = "<group>"; };
+		FD4FC36827BCD40B001278C7 /* sm2pub-4.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pub-4.pem"; sourceTree = "<group>"; };
+		FD4FC36927BCD40B001278C7 /* sm2pub-6.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pub-6.pem"; sourceTree = "<group>"; };
+		FD4FC36A27BCD40B001278C7 /* sm2pub-7.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pub-7.pem"; sourceTree = "<group>"; };
+		FD4FC36B27BCD40B001278C7 /* sm2pub-3.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pub-3.pem"; sourceTree = "<group>"; };
+		FD4FC36C27BCD40B001278C7 /* sm2pub-2.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pub-2.pem"; sourceTree = "<group>"; };
+		FD4FC36D27BCD40B001278C7 /* sm2pub-1.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pub-1.pem"; sourceTree = "<group>"; };
+		FD4FC36E27BCD40B001278C7 /* sm2pub-10.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pub-10.pem"; sourceTree = "<group>"; };
+		FD4FC36F27BCD40B001278C7 /* sm2pub-9.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pub-9.pem"; sourceTree = "<group>"; };
+		FD4FC37027BCD40B001278C7 /* sm2pub-8.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sm2pub-8.pem"; sourceTree = "<group>"; };
+		FD4FC37127BCD40B001278C7 /* sm4TestFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sm4TestFile.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD4FC27727BBB646001278C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EBB7281F1E8C21C6340B3C /* libPods-GuoMi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4FC29227BBB647001278C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4FC29C27BBB647001278C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1232BFBCF1D759957D799B54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F0FF6ED7886C91D1F84CC9C /* libPods-GuoMi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5ACA0E3130F71747F4784C24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB5015C8455EF6F7DCF61D /* Pods-GuoMi.debug.xcconfig */,
+				80260F32BD44167730661520 /* Pods-GuoMi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD4FC27127BBB646001278C7 = {
+			isa = PBXGroup;
+			children = (
+				FD4FC2B227BBB6C8001278C7 /* Classes */,
+				FD4FC27C27BBB646001278C7 /* GuoMi */,
+				FD4FC29827BBB647001278C7 /* GuoMiTests */,
+				FD4FC2A227BBB647001278C7 /* GuoMiUITests */,
+				FD4FC27B27BBB646001278C7 /* Products */,
+				5ACA0E3130F71747F4784C24 /* Pods */,
+				1232BFBCF1D759957D799B54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD4FC27B27BBB646001278C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FC27A27BBB646001278C7 /* GuoMi.app */,
+				FD4FC29527BBB647001278C7 /* GuoMiTests.xctest */,
+				FD4FC29F27BBB647001278C7 /* GuoMiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD4FC27C27BBB646001278C7 /* GuoMi */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FC33927BCD40B001278C7 /* Tests Sources */,
+				FD4FC27D27BBB646001278C7 /* AppDelegate.h */,
+				FD4FC27E27BBB646001278C7 /* AppDelegate.m */,
+				FD4FC28027BBB646001278C7 /* SceneDelegate.h */,
+				FD4FC28127BBB646001278C7 /* SceneDelegate.m */,
+				FD4FC28327BBB646001278C7 /* ViewController.h */,
+				FD4FC28427BBB646001278C7 /* ViewController.m */,
+				FD4FC28627BBB646001278C7 /* Main.storyboard */,
+				FD4FC28927BBB647001278C7 /* Assets.xcassets */,
+				FD4FC28B27BBB647001278C7 /* LaunchScreen.storyboard */,
+				FD4FC28E27BBB647001278C7 /* Info.plist */,
+				FD4FC28F27BBB647001278C7 /* main.m */,
+			);
+			path = GuoMi;
+			sourceTree = "<group>";
+		};
+		FD4FC29827BBB647001278C7 /* GuoMiTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FC29927BBB647001278C7 /* GuoMiTests.m */,
+			);
+			path = GuoMiTests;
+			sourceTree = "<group>";
+		};
+		FD4FC2A227BBB647001278C7 /* GuoMiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FC2A327BBB647001278C7 /* GuoMiUITests.m */,
+				FD4FC2A527BBB647001278C7 /* GuoMiUITestsLaunchTests.m */,
+			);
+			path = GuoMiUITests;
+			sourceTree = "<group>";
+		};
+		FD4FC2B227BBB6C8001278C7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FC2C527BBB6F1001278C7 /* GMObjC.h */,
+				FD4FC2C427BBB6F1001278C7 /* GMObjCDef.h */,
+				FD4FC2B427BBB6F1001278C7 /* GMSm2Bio.h */,
+				FD4FC2C327BBB6F1001278C7 /* GMSm2Bio.m */,
+				FD4FC2BE27BBB6F1001278C7 /* GMSm2Utils.h */,
+				FD4FC2C127BBB6F1001278C7 /* GMSm2Utils.m */,
+				FD4FC2C227BBB6F1001278C7 /* GMSm3Utils.h */,
+				FD4FC2BF27BBB6F1001278C7 /* GMSm3Utils.m */,
+				FD4FC2C027BBB6F1001278C7 /* GMSm4Utils.h */,
+				FD4FC2C727BBB6F1001278C7 /* GMSm4Utils.m */,
+				FD4FC2C627BBB6F1001278C7 /* GMUtils.h */,
+				FD4FC2B327BBB6F1001278C7 /* GMUtils.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FD4FC33927BCD40B001278C7 /* Tests Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FC33A27BCD40B001278C7 /* private_pem */,
+				FD4FC34527BCD40B001278C7 /* private_der */,
+				FD4FC35027BCD40B001278C7 /* private_pkcs8_pem */,
+				FD4FC35B27BCD40B001278C7 /* public_der */,
+				FD4FC36627BCD40B001278C7 /* public_pem */,
+				FD4FC37127BCD40B001278C7 /* sm4TestFile.txt */,
+			);
+			path = "Tests Sources";
+			sourceTree = "<group>";
+		};
+		FD4FC33A27BCD40B001278C7 /* private_pem */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FC33B27BCD40B001278C7 /* sm2pri-4.pem */,
+				FD4FC33C27BCD40B001278C7 /* sm2pri-5.pem */,
+				FD4FC33D27BCD40B001278C7 /* sm2pri-7.pem */,
+				FD4FC33E27BCD40B001278C7 /* sm2pri-6.pem */,
+				FD4FC33F27BCD40B001278C7 /* sm2pri-2.pem */,
+				FD4FC34027BCD40B001278C7 /* sm2pri-3.pem */,
+				FD4FC34127BCD40B001278C7 /* sm2pri-1.pem */,
+				FD4FC34227BCD40B001278C7 /* sm2pri-10.pem */,
+				FD4FC34327BCD40B001278C7 /* sm2pri-8.pem */,
+				FD4FC34427BCD40B001278C7 /* sm2pri-9.pem */,
+			);
+			path = private_pem;
+			sourceTree = "<group>";
+		};
+		FD4FC34527BCD40B001278C7 /* private_der */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FC34627BCD40B001278C7 /* sm2pri-1.der */,
+				FD4FC34727BCD40B001278C7 /* sm2pri-3.der */,
+				FD4FC34827BCD40B001278C7 /* sm2pri-2.der */,
+				FD4FC34927BCD40B001278C7 /* sm2pri-6.der */,
+				FD4FC34A27BCD40B001278C7 /* sm2pri-7.der */,
+				FD4FC34B27BCD40B001278C7 /* sm2pri-5.der */,
+				FD4FC34C27BCD40B001278C7 /* sm2pri-4.der */,
+				FD4FC34D27BCD40B001278C7 /* sm2pri-9.der */,
+				FD4FC34E27BCD40B001278C7 /* sm2pri-8.der */,
+				FD4FC34F27BCD40B001278C7 /* sm2pri-10.der */,
+			);
+			path = private_der;
+			sourceTree = "<group>";
+		};
+		FD4FC35027BCD40B001278C7 /* private_pkcs8_pem */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FC35127BCD40B001278C7 /* sm2pri8-9.pem */,
+				FD4FC35227BCD40B001278C7 /* sm2pri8-8.pem */,
+				FD4FC35327BCD40B001278C7 /* sm2pri8-10.pem */,
+				FD4FC35427BCD40B001278C7 /* sm2pri8-3.pem */,
+				FD4FC35527BCD40B001278C7 /* sm2pri8-2.pem */,
+				FD4FC35627BCD40B001278C7 /* sm2pri8-1.pem */,
+				FD4FC35727BCD40B001278C7 /* sm2pri8-5.pem */,
+				FD4FC35827BCD40B001278C7 /* sm2pri8-4.pem */,
+				FD4FC35927BCD40B001278C7 /* sm2pri8-6.pem */,
+				FD4FC35A27BCD40B001278C7 /* sm2pri8-7.pem */,
+			);
+			path = private_pkcs8_pem;
+			sourceTree = "<group>";
+		};
+		FD4FC35B27BCD40B001278C7 /* public_der */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FC35C27BCD40B001278C7 /* sm2pub-1.der */,
+				FD4FC35D27BCD40B001278C7 /* sm2pub-2.der */,
+				FD4FC35E27BCD40B001278C7 /* sm2pub-3.der */,
+				FD4FC35F27BCD40B001278C7 /* sm2pub-7.der */,
+				FD4FC36027BCD40B001278C7 /* sm2pub-6.der */,
+				FD4FC36127BCD40B001278C7 /* sm2pub-4.der */,
+				FD4FC36227BCD40B001278C7 /* sm2pub-5.der */,
+				FD4FC36327BCD40B001278C7 /* sm2pub-8.der */,
+				FD4FC36427BCD40B001278C7 /* sm2pub-9.der */,
+				FD4FC36527BCD40B001278C7 /* sm2pub-10.der */,
+			);
+			path = public_der;
+			sourceTree = "<group>";
+		};
+		FD4FC36627BCD40B001278C7 /* public_pem */ = {
+			isa = PBXGroup;
+			children = (
+				FD4FC36727BCD40B001278C7 /* sm2pub-5.pem */,
+				FD4FC36827BCD40B001278C7 /* sm2pub-4.pem */,
+				FD4FC36927BCD40B001278C7 /* sm2pub-6.pem */,
+				FD4FC36A27BCD40B001278C7 /* sm2pub-7.pem */,
+				FD4FC36B27BCD40B001278C7 /* sm2pub-3.pem */,
+				FD4FC36C27BCD40B001278C7 /* sm2pub-2.pem */,
+				FD4FC36D27BCD40B001278C7 /* sm2pub-1.pem */,
+				FD4FC36E27BCD40B001278C7 /* sm2pub-10.pem */,
+				FD4FC36F27BCD40B001278C7 /* sm2pub-9.pem */,
+				FD4FC37027BCD40B001278C7 /* sm2pub-8.pem */,
+			);
+			path = public_pem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD4FC27927BBB646001278C7 /* GuoMi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4FC2A927BBB647001278C7 /* Build configuration list for PBXNativeTarget "GuoMi" */;
+			buildPhases = (
+				B86A973C09C27B566E9FCB83 /* [CP] Check Pods Manifest.lock */,
+				FD4FC27627BBB646001278C7 /* Sources */,
+				FD4FC27727BBB646001278C7 /* Frameworks */,
+				FD4FC27827BBB646001278C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuoMi;
+			productName = GuoMi;
+			productReference = FD4FC27A27BBB646001278C7 /* GuoMi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD4FC29427BBB647001278C7 /* GuoMiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4FC2AC27BBB647001278C7 /* Build configuration list for PBXNativeTarget "GuoMiTests" */;
+			buildPhases = (
+				FD4FC29127BBB647001278C7 /* Sources */,
+				FD4FC29227BBB647001278C7 /* Frameworks */,
+				FD4FC29327BBB647001278C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD4FC29727BBB647001278C7 /* PBXTargetDependency */,
+			);
+			name = GuoMiTests;
+			productName = GuoMiTests;
+			productReference = FD4FC29527BBB647001278C7 /* GuoMiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD4FC29E27BBB647001278C7 /* GuoMiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD4FC2AF27BBB647001278C7 /* Build configuration list for PBXNativeTarget "GuoMiUITests" */;
+			buildPhases = (
+				FD4FC29B27BBB647001278C7 /* Sources */,
+				FD4FC29C27BBB647001278C7 /* Frameworks */,
+				FD4FC29D27BBB647001278C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD4FC2A127BBB647001278C7 /* PBXTargetDependency */,
+			);
+			name = GuoMiUITests;
+			productName = GuoMiUITests;
+			productReference = FD4FC29F27BBB647001278C7 /* GuoMiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD4FC27227BBB646001278C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FD4FC27927BBB646001278C7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					FD4FC29427BBB647001278C7 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FD4FC27927BBB646001278C7;
+					};
+					FD4FC29E27BBB647001278C7 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = FD4FC27927BBB646001278C7;
+					};
+				};
+			};
+			buildConfigurationList = FD4FC27527BBB646001278C7 /* Build configuration list for PBXProject "GuoMi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD4FC27127BBB646001278C7;
+			productRefGroup = FD4FC27B27BBB646001278C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD4FC27927BBB646001278C7 /* GuoMi */,
+				FD4FC29427BBB647001278C7 /* GuoMiTests */,
+				FD4FC29E27BBB647001278C7 /* GuoMiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD4FC27827BBB646001278C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4FC37727BCD40B001278C7 /* sm2pri-3.pem in Resources */,
+				FD4FC37E27BCD40B001278C7 /* sm2pri-2.der in Resources */,
+				FD4FC38927BCD40B001278C7 /* sm2pri8-3.pem in Resources */,
+				FD4FC39A27BCD40B001278C7 /* sm2pub-5.pem in Resources */,
+				FD4FC37B27BCD40B001278C7 /* sm2pri-9.pem in Resources */,
+				FD4FC39E27BCD40B001278C7 /* sm2pub-3.pem in Resources */,
+				FD4FC37C27BCD40B001278C7 /* sm2pri-1.der in Resources */,
+				FD4FC38F27BCD40B001278C7 /* sm2pri8-7.pem in Resources */,
+				FD4FC39227BCD40B001278C7 /* sm2pub-3.der in Resources */,
+				FD4FC38A27BCD40B001278C7 /* sm2pri8-2.pem in Resources */,
+				FD4FC38027BCD40B001278C7 /* sm2pri-7.der in Resources */,
+				FD4FC38B27BCD40B001278C7 /* sm2pri8-1.pem in Resources */,
+				FD4FC3A127BCD40B001278C7 /* sm2pub-10.pem in Resources */,
+				FD4FC3A427BCD40B001278C7 /* sm4TestFile.txt in Resources */,
+				FD4FC37F27BCD40B001278C7 /* sm2pri-6.der in Resources */,
+				FD4FC39D27BCD40B001278C7 /* sm2pub-7.pem in Resources */,
+				FD4FC39927BCD40B001278C7 /* sm2pub-10.der in Resources */,
+				FD4FC38527BCD40B001278C7 /* sm2pri-10.der in Resources */,
+				FD4FC37827BCD40B001278C7 /* sm2pri-1.pem in Resources */,
+				FD4FC39727BCD40B001278C7 /* sm2pub-8.der in Resources */,
+				FD4FC39327BCD40B001278C7 /* sm2pub-7.der in Resources */,
+				FD4FC38D27BCD40B001278C7 /* sm2pri8-4.pem in Resources */,
+				FD4FC3A327BCD40B001278C7 /* sm2pub-8.pem in Resources */,
+				FD4FC38627BCD40B001278C7 /* sm2pri8-9.pem in Resources */,
+				FD4FC37927BCD40B001278C7 /* sm2pri-10.pem in Resources */,
+				FD4FC3A227BCD40B001278C7 /* sm2pub-9.pem in Resources */,
+				FD4FC39B27BCD40B001278C7 /* sm2pub-4.pem in Resources */,
+				FD4FC37627BCD40B001278C7 /* sm2pri-2.pem in Resources */,
+				FD4FC28D27BBB647001278C7 /* LaunchScreen.storyboard in Resources */,
+				FD4FC3A027BCD40B001278C7 /* sm2pub-1.pem in Resources */,
+				FD4FC37327BCD40B001278C7 /* sm2pri-5.pem in Resources */,
+				FD4FC37A27BCD40B001278C7 /* sm2pri-8.pem in Resources */,
+				FD4FC28A27BBB647001278C7 /* Assets.xcassets in Resources */,
+				FD4FC39027BCD40B001278C7 /* sm2pub-1.der in Resources */,
+				FD4FC37D27BCD40B001278C7 /* sm2pri-3.der in Resources */,
+				FD4FC39C27BCD40B001278C7 /* sm2pub-6.pem in Resources */,
+				FD4FC39F27BCD40B001278C7 /* sm2pub-2.pem in Resources */,
+				FD4FC39627BCD40B001278C7 /* sm2pub-5.der in Resources */,
+				FD4FC38127BCD40B001278C7 /* sm2pri-5.der in Resources */,
+				FD4FC38E27BCD40B001278C7 /* sm2pri8-6.pem in Resources */,
+				FD4FC38C27BCD40B001278C7 /* sm2pri8-5.pem in Resources */,
+				FD4FC38827BCD40B001278C7 /* sm2pri8-10.pem in Resources */,
+				FD4FC38227BCD40B001278C7 /* sm2pri-4.der in Resources */,
+				FD4FC37427BCD40B001278C7 /* sm2pri-7.pem in Resources */,
+				FD4FC38727BCD40B001278C7 /* sm2pri8-8.pem in Resources */,
+				FD4FC39127BCD40B001278C7 /* sm2pub-2.der in Resources */,
+				FD4FC37227BCD40B001278C7 /* sm2pri-4.pem in Resources */,
+				FD4FC39527BCD40B001278C7 /* sm2pub-4.der in Resources */,
+				FD4FC39827BCD40B001278C7 /* sm2pub-9.der in Resources */,
+				FD4FC37527BCD40B001278C7 /* sm2pri-6.pem in Resources */,
+				FD4FC38427BCD40B001278C7 /* sm2pri-8.der in Resources */,
+				FD4FC39427BCD40B001278C7 /* sm2pub-6.der in Resources */,
+				FD4FC38327BCD40B001278C7 /* sm2pri-9.der in Resources */,
+				FD4FC28827BBB646001278C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4FC29327BBB647001278C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4FC29D27BBB647001278C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B86A973C09C27B566E9FCB83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuoMi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD4FC27627BBB646001278C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4FC28527BBB646001278C7 /* ViewController.m in Sources */,
+				FD4FC27F27BBB646001278C7 /* AppDelegate.m in Sources */,
+				FD4FC2CA27BBB6F1001278C7 /* GMSm2Utils.m in Sources */,
+				FD4FC29027BBB647001278C7 /* main.m in Sources */,
+				FD4FC2CC27BBB6F1001278C7 /* GMSm4Utils.m in Sources */,
+				FD4FC2C827BBB6F1001278C7 /* GMUtils.m in Sources */,
+				FD4FC2CB27BBB6F1001278C7 /* GMSm2Bio.m in Sources */,
+				FD4FC28227BBB646001278C7 /* SceneDelegate.m in Sources */,
+				FD4FC2C927BBB6F1001278C7 /* GMSm3Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4FC29127BBB647001278C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4FC29A27BBB647001278C7 /* GuoMiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4FC29B27BBB647001278C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4FC2A627BBB647001278C7 /* GuoMiUITestsLaunchTests.m in Sources */,
+				FD4FC2A427BBB647001278C7 /* GuoMiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD4FC29727BBB647001278C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD4FC27927BBB646001278C7 /* GuoMi */;
+			targetProxy = FD4FC29627BBB647001278C7 /* PBXContainerItemProxy */;
+		};
+		FD4FC2A127BBB647001278C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD4FC27927BBB646001278C7 /* GuoMi */;
+			targetProxy = FD4FC2A027BBB647001278C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD4FC28627BBB646001278C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4FC28727BBB646001278C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD4FC28B27BBB647001278C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD4FC28C27BBB647001278C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD4FC2A727BBB647001278C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD4FC2A827BBB647001278C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD4FC2AA27BBB647001278C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBAB5015C8455EF6F7DCF61D /* Pods-GuoMi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6A23453T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuoMi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuzy.GuoMi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD4FC2AB27BBB647001278C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80260F32BD44167730661520 /* Pods-GuoMi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6A23453T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuoMi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuzy.GuoMi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD4FC2AD27BBB647001278C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6A23453T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinodata.GuoMiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuoMi.app/GuoMi";
+			};
+			name = Debug;
+		};
+		FD4FC2AE27BBB647001278C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6A23453T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinodata.GuoMiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuoMi.app/GuoMi";
+			};
+			name = Release;
+		};
+		FD4FC2B027BBB647001278C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6A23453T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinodata.GuoMiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuoMi;
+			};
+			name = Debug;
+		};
+		FD4FC2B127BBB647001278C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L6A23453T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinodata.GuoMiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuoMi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD4FC27527BBB646001278C7 /* Build configuration list for PBXProject "GuoMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4FC2A727BBB647001278C7 /* Debug */,
+				FD4FC2A827BBB647001278C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4FC2A927BBB647001278C7 /* Build configuration list for PBXNativeTarget "GuoMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4FC2AA27BBB647001278C7 /* Debug */,
+				FD4FC2AB27BBB647001278C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4FC2AC27BBB647001278C7 /* Build configuration list for PBXNativeTarget "GuoMiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4FC2AD27BBB647001278C7 /* Debug */,
+				FD4FC2AE27BBB647001278C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD4FC2AF27BBB647001278C7 /* Build configuration list for PBXNativeTarget "GuoMiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4FC2B027BBB647001278C7 /* Debug */,
+				FD4FC2B127BBB647001278C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD4FC27227BBB646001278C7 /* Project object */;
+}
